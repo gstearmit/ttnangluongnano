@@ -1,0 +1,16 @@
+/**** COMMENT SECTION *****/
+#commentform {width: 100%;margin: 20px 0px;}
+#commentform input {padding: 5px;margin: 5px 0;width: 50%;}
+#commentform textarea {padding: 5px;margin: 5px 0}
+.commentlist {margin: 20px 0}
+.commentlist li {border-bottom: 1px dotted #bcd4da;margin: 15px 0;padding: 10px 0;}
+.vcard {float: left;width: 70px;text-align: center;}
+.says {display: none;}
+.fn {font-weight: bold;}
+.comment-body p, .comment-meta {margin-left: 80px}
+.comment-body {position: relative; min-height: 100px;}
+.odd {background-color: #daedf2;}
+.reply {position: absolute; top: 0px; right: 10px;}
+.reply a {display: block;width: 50px; height: 20px;text-indent: -99999px;background: url(images/reply.jpg) no-repeat top left;}
+.children {margin-left: 40px;}
+.children li {border: none;}

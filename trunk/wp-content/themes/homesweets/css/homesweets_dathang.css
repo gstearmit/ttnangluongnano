@@ -1,0 +1,16 @@
+#home_sweets_dathang{
+	float: right;
+	position: relative;
+	width: 208px;
+	min-height: 100%;
+}
+
+#tit_name_home_sweets a{color: #333300 !important;font-weight: bold;line-height: 1.3;font-size: 18px;text-align: center;padding: 4px;margin-bottom: 3px;}
+#tit_name_home_sweets {color: #333300 !important;font-weight: bold;line-height: 1.3;font-size: 18px;text-align: center;padding: 4px;margin-bottom: 3px;}
+#khung_dathang {float: right;
+	position: relative;
+	width: 208px;
+	min-height: 100%;margin-bottom: 20px;}
+#images_dathang img{ width: 202px;height: 270px;padding: 1px;border: 1px double #ddd;}
+#name_thanthiet a {line-height: 1.3;color: #666666;font-size: 23px;font-weight: bold;text-align: center;padding: 4px;margin-bottom: 3px;}
+#images_left_tk{width: 85px;height: 99px;float: left;position: relative; margin: 15px 25px 20px 0px;padding: 1px;border: 1px double #ddd;}

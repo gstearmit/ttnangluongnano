@@ -1,0 +1,299 @@
+/*   
+Theme Name: Origin
+Theme URI: http://maybanhang.net
+Description: Bán Căn Hộ Trên Hồ Tây
+Author: GstearmIt
+Author URI: http://maybanhang.net
+Version: 1.0
+*/
+
+@media screen {
+* { margin: 0; padding: 0; }    
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: Arial,inherit;
+	vertical-align: baseline;
+}
+
+ul, ol {list-style: none;}
+strong {font-weight: bold;}
+
+article, aside, figure, footer, header, hgroup, menu, nav, section { display: block; }
+
+.group:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+.group { display: inline-block; clear: both; }
+/* start commented backslash hack \*/ * html .group { height: 1%; } .group { display: block; } /* close commented backslash hack */
+
+body { font: 12px/2 "Arial",Helvetica,Arial,sans-serif;background-color: #C2C2C2;}
+
+/*
+	TYPOGRAPHY
+*/
+h1, h2, h3, h4, h5 {}
+a img { border: 0; }
+a {color: #ce9702; text-decoration: none;}
+.zoomer:active { top: 0; }
+
+#bg_top {
+	height: 174px;
+	padding: 0px 0px 0px 0px;
+	background: #53585C repeat top;
+	min-width: 100%;
+	box-shadow: 5px 10px 5px #666;
+	-moz-box-shadow: 5px 5px 5px #666;
+	-webkit-box-shadow: 0px 10px 5px #8D8686;
+	margin: 0px auto;
+    }
+#bg_top h1 a { 
+	text-indent: 0px;
+	font-size: 26px;
+	color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left: 130px;
+	 }
+#ket_noi_sosial {
+	background: url(images/social-royal.png);
+	float: right;
+	width: 23px;
+	height: 24px;
+	position: relative;
+	top: -39px;
+	right: 183px;
+}
+#ket_noi_tw {
+	background: url(images/social-royal.png);
+	float: right;
+	width: 23px;
+	height: 24px;
+	position: relative;
+	top: -39px;
+	right: 163px;
+}
+#chinh_images {
+	position: relative;
+	top: -59px;
+	right: 4px;
+}
+
+#quangcao1{background: url("images/6904033_orig.png");width: 203px;height: 53px;padding: 1px;border: 1px double #ddd;margin-bottom: 20px;} 
+/***** HEADER *****/
+#page-wrap {margin: 0 auto; width: 960px;position: relative;top: -83px;background-color: #fff;}
+#header {height: 116px; padding: 60px 0px 0px 10px; 
+}
+#header {display: block;width: 960px; height: 171px; /*background: url(images/header_03.png) no-repeat top left; */position: relative;right: 8px;top: -1px;}
+#chinh_images.anh_home {background: url('images/header_03.png') top no-repeat;width: 964px;height: 233px;}
+#top-bar { /* border-top: 1px dashed #359cc3;border-bottom: 1px dashed #359cc3;padding: 1px 0 0 0; */
+            padding: 1px 0 0 0;
+			background: url("images/nav-bg.png");
+			width: 986px;
+			height: 66px;
+			position: relative;
+            right: 13px;
+            top: -3px;
+		  }
+#top-menu-bar {
+	position: relative;
+	top: 11px;
+	left: 41px;
+}
+
+#searchBox {float: right;margin: 0px 0 0 0;display: inline-block;right: 79px;position: relative;}
+#searchBox input[type='text'] {padding: 3px;}
+#searchBox input[type='submit']{width: 50px; height: 23px; border:none; background:url(images/search_button.gif) no-repeat top left;position: relative;top: 6px;right: -5px;}
+#searchBox label {font-weight: bold;color: #fff;font-size: 17px;}
+
+#menu-page-menu {float: left;}
+#menu-page-menu li {position: relative; float: left;}
+#menu-page-menu li a {/*display: block; float: left;padding: 0px 10px;font-size: 14px;color: #545454;border-right: 1px solid white;border-bottom: 1px solid white;*/
+                     display: block;
+					float: left;
+					padding: 0px 10px;
+					font-size: 14px;
+					color: #fff;
+                     }
+#menu-page-menu li a:hover {color: white;background-color: #12283C;}
+#menu-page-menu li ul {position: absolute; top:100%; width: 13em;display: none;z-index: 10000;}
+#menu-page-menu li:hover ul {display: block;}
+#menu-page-menu li ul li a {float: none;font-size: 14px;border-left: 1px solid white;border-right: 1px solid white;}
+#menu-page-menu li ul li {background-color: #1A344B; width: 100%;}
+#menu-page-menu li ul li a:hover {background-color: #12283C; color: #31576e;}
+.current_page_item {/* background-color: #bcd4da;*/background-color: #1A344B;border-radius: 4px;}
+#page-info {margin: 25px 0px; overflow: hidden;border-bottom: 1px double #ddd;padding-bottom: 29px;}
+#featured {float: left;}
+#facebook {float: right;}
+
+/**** MAIN STRUCTURE *****/
+#page-info-wapper {/*margin: 0px; overflow: hidden;border-bottom: 1px double #ddd;padding-bottom: 29px;min-height: 100%;*/
+					margin: 0px 20px 20px 20px;
+					border-bottom: 1px double #ddd;
+					padding-bottom: 29px;
+					min-height: 100%;
+					width: 96%;
+					overflow: hidden;
+					line-height: 1.5;
+					font-size: 12px;
+ }
+#main-content {/* width: 540px; float: left; margin: 0 15px;*/
+	width: 698px;
+	position: relative;
+	float: left;
+	min-height: 100%;
+     }
+#content-wrap {/** can chinh dinh dang ben phai sidebar **/
+		float:right;width: 208px;min-height: 100%}
+#first-sidebar {float: right;position: relative;width: 208px;min-height: 100%;}
+#second-sidebar {float: right;position: relative;width: 208px;min-height: 100%;}
+#cac_can_ho{width: 698px;position: relative;float: left;min-height: 100%;}
+
+#menu-categories-menu {padding: 5px;}
+#menu-categories-menu li a {color: #666; display: block;padding: 0px 0px 5px 0px;border-bottom: 1px dotted #bcd4da;}
+#menu-categories-menu li a:hover {color: #ce9702;}
+
+.widget {margin: 0px 0px 20px 0px;}
+.widget p {padding: 0px 3px;}
+.widget h4 a {font:  bold 12px Arial,verdana, sans-serif;}
+.widget h2 {padding: 3px 0px 3px 10px; color: white; font-size: 16px; background-color: #bcd4da;}
+
+.date {text-decoration: underline; color: #898989;text-align: right; font-size: 11px;}
+
+/***** MAIN CONTENT *****/
+#main-content h2 {padding: 5px 0px 0px 15px;color: white;font-size: 16px;background: url(images/cat-bg.png) no-repeat top left;border-bottom: 1px solid #bcd4da;}
+
+#main-content h2 a {color: white;}
+.post {position: relative; margin-bottom: 30px;}
+.post h3 {margin: 18px 0px 0px 158px; font-size: 18px;}
+.post h3 a:hover {text-decoration: underline;}
+.post img {float: left; margin: 0px 15px;}
+.post p {margin-left: 158px;}
+.post .meta-data {margin: 70px 0px 0px 0px; border-top: 1px solid #bcd4da;border-bottom: 1px solid #bcd4da;padding: 5px;}
+.more-link {position: absolute; bottom: 7px; right: 0px;}
+.post-edit-link {float: right;}
+a.more-link:hover {text-decoration: underline;}
+.comment-link {position: absolute;top: 0px; right: 0px;display: block;width: 43px; height: 36px;padding-top: 5px;font-weight: bold;color: #ce9702;text-align: center;background: url(images/comment-bubble-rtl.png) no-repeat top left;}
+.comment-link:hover {color:#c06;}
+.links {position: absolute; left:27px; bottom: 40px; list-style: disc;}
+.links li a:hover {color: #c06;}
+.tooltip {display: none;position: absolute;background: #DBEAF9;border: 1px solid #B3DCFC;border-radius: 5px;padding: 5px;width: 500px;}
+
+/**** CUSTOM PAGE *****/
+#main-content dt {cursor: pointer;color: #ce9702;font-size: 14px;}
+#main-content .current-question {color: #c06;}
+
+/***** SINGLE PAGE *****/
+body.single #content-wrap, 
+body.page #content-wrap,
+body.error404 #content-wrap,
+body.archive #content-wrap,
+body.search #content-wrap
+ {margin: 0px;line-height: 1.5;font-size: 12px;}
+ 
+body.single #main-content .post p {margin: 10px 0px; padding: 0;}
+body.single #main-content .post h3, 
+body.page #main-content .post h3, 
+body.archive #main-content h3,
+body.search #main-content h3
+{font-size: 18px; margin: 0px;}
+
+/*******************au co 1 *****************************/
+#infor_sweets_1auco {float:left; width: 689px; min-height:100%;margin: 10px 0px 10px 0px;}
+#name_info 
+{
+	color: #333300 !important;
+	font-weight: bold;
+	line-height: 1.3;
+	font-size: 18px;
+	text-align: center;
+	padding: 4px;
+	margin-bottom: 3px;
+	float: left;
+}
+#contend_info {
+float: left;
+margin-left: 31px;
+padding-left: 10px;
+}
+#contend_info ul li {
+	list-style: initial;
+	padding: 2px;
+}
+#khung_info { float:left;width: 319px; min-height: 100%; padding: 2px;margin: 0px 14px 0px 0px;}
+#cac_can_ho{width: 692px;float: left; margin: 10px 0px 0px 10px;}
+#name_can_ho{
+	color: #333300 !important;
+	font-weight: bold;
+	line-height: 1.3;
+	font-size: 18px;
+	text-align: center;
+	padding: 4px;
+	margin-bottom: 3px;
+	float:left;
+ }
+#text_can_ho {width: 319px;min-height: 100%;float:left;}
+#khung_can_ho {width: 313px;
+				height: 292px;
+				float: left;
+				margin: 0px 33px 0px 0px;
+				border-top: 1px double #ddd;
+				border-bottom: 1px double #ddd;
+}
+#img_can_ho img{float:left;width: 184px;height: 126px;padding: 1px ; border: 1px double #ddd;}
+#the_conted_can_ho {float: right;width: 109px;margin: 0px 0px 0px 19px;}
+
+/********************end au co 1 ****************************/
+
+/**** SIDEBAR SECOND *****/
+.tabs {height: 33px;border-left: 1px solid #bcd4da;}
+.tabs li {float: left;line-height: 31px;border: 1px solid #bcd4da;border-left: none;margin-bottom: -2px;}
+.tabs li a {color: white;display: block;padding: 0 14px;background-color: #bcd4da;border: 1px solid white;}
+.tabs li:last-child a {padding: 0px 17px 0px 16px;}
+.tabs li a:hover {background-color: #d7e7ea;}
+.tabs li a.active {background-color: #d7e7ea;color: #31576e;}
+.tab_container {border: 1px solid #bcd4da;border-top: none;margin:  0px 0px 20px 0px;}
+.tab_content {padding: 15px;}
+.tab_content ul li {border-bottom: 1px dotted #bcd4da;padding: 7px 0px;}
+.tab_content ul li a {color: #666;}
+.tab_content ul li a:hover {color: #ce9702;}
+
+/***** FOOTER *****/
+#footer_body{
+	text-align: center; width: 960px; height: 124px;
+    margin-left: 100px;margin-right: 72px;
+}
+#fo_li{
+	color: #000000;
+	width: 800px;
+	height: 15px;
+	margin: 3px;
+}
+
+
+/*****************************************************/
+#footer { bottom: 42px;position: relative;height: 120px; line-height: 120px;clear: both;font-size: 14px; }
+#footer p {text-align: center;color: #333300 !important;text-transform: uppercase;font-size: 14px;}
+#footer img {position: absolute;top: 5px; right: 218px;}
+#fo_li a {color: #333300 !important;}
+
+
+
+
+
+
+
+
+
+
+
+}/*end screen/*

@@ -1,0 +1,197 @@
+/*
+ * Easy Media Gallery Lite
+ * Frontend Style v.1.2.15
+ * Copyright (c) 2012 GhozyLab, Inc.
+ * http://ghozylab.com/
+ * http://wordpress.org/extend/plugins/easy-media-gallery/
+*/
+
+#mbMedia, #mbContainer, #mbCenter, #mbBottom {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing:    border-box;
+	box-sizing:         border-box;
+}
+
+.thecol {display:inline-block; vertical-align:top !important;}
+
+.view {
+   overflow: hidden;
+   position: relative;
+}
+
+.view img {
+	padding:0px !important;
+	display: block;
+	position: relative;
+	max-width: none;
+	overflow: hidden !important;
+	margin:auto auto auto 0px;
+}
+
+.da-thumbs article.da-animate p{
+	margin-top: 0px !important;
+	position:absolute;
+	top:0px;
+	width:100%;
+	text-align: center !important;
+	background: rgba(0, 0, 0, 0.5) !important;
+	padding:5px 0 5px 0 !important;
+	color: #FFF !important;
+	font-weight:bold !important;
+	font-family: Arial, Helvetica, sans-serif !important;
+	font: 16px/1 !important;
+	text-shadow:none !important;
+	left:0px!important;
+	overflow: hidden !important;
+}
+
+
+/* Portolio/Thumbnail Hover */
+
+.da-thumbs {
+	overflow: hidden;
+}
+
+.da-thumbs article.da-animate {
+	position:absolute;
+	width: 96%;
+    height: 94%;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	overflow: hidden !important;
+	border: none !important;
+	margin: 0 !important;
+	padding: 0 !important;	
+	background: rgba(0,0,0,0.4);
+}
+
+/* Initial state classes: */
+.da-slideFromTop {
+	left: 5px;
+	top: -100%;
+}
+
+.da-slideFromBottom {
+	left: 5px;
+	top: 100%;
+}
+
+.da-slideFromLeft {
+	top: 0px; 
+	left: -100%;
+}
+
+.da-slideFromRight {
+	top: 0px;
+	left: 100%;
+}
+
+/* Final state classes: */
+.da-slideTop {
+	top: 0px;
+}
+
+.da-slideLeft {
+	left: 5px;
+}
+
+span.link_post{
+display:inline-block;
+width:35px;
+height:35px;
+border-radius:50px;
+cursor:pointer;
+background-image:url(images/link_post_icon.png); background-repeat:no-repeat; background-position:center;
+margin-right:10px;
+}
+
+span.zoom{
+opacity: 0.6;
+display:inline-block;	
+overflow:hidden;
+width:35px;
+height:35px;
+border-radius:50px;
+cursor:pointer;
+background-image:url(images/mag.png); background-repeat:no-repeat; background-position:center;
+padding:3px;
+}
+
+/* Image Grid */
+.forspan {
+    position:relative;
+    top: 40%;
+	margin:0 auto;
+	text-align:center;
+	z-index:1;
+	overflow: hidden;
+	float:none;	
+	}
+	
+span.zoom:hover{
+	opacity: 0.8;
+	}
+	
+span.link_post:hover{
+	opacity: 0.8;
+	}
+	
+	
+.easymedia_center {
+	clear: both;
+	display: block;
+	text-align:center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.easymedia_none {
+	float:none;
+}	
+			
+
+/*
+ * RESPONSIVE MODE
+*/
+
+@media only screen and (max-width: 480px) {
+	
+/*
+ * MEDIA THUMBNAIL
+*/	
+
+.pfwrpr {width: 100%;}	
+	
+.view {
+	max-width: 101px !important;
+	display:block;
+    }
+
+.view img {
+	display: block;
+	position: relative;
+	overflow: hidden;
+   	width:100%;
+	max-width: 200px !important;
+}
+
+.easymedia_center {text-align: center !important; float:none !important;}
+.easymedia_left {text-align: center !important; float:none !important; margin-right: 0;}
+.easymedia_right {text-align: center !important; float:none !important; margin-left: 0;}
+.easymedia_none {text-align: center !important; float:none !important;}
+
+.thecol {width: auto !important;}
+
+.forspan {
+   width:auto !important;
+    position:relative;
+    top: 43%;
+	margin:0 auto;
+	text-align:center;
+	overflow: hidden;
+	float:none;		
+	}
+}
