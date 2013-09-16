@@ -1,0 +1,6 @@
+#thi_truong_dia_phuong_buoi_sang {float:left;padding-bottom: 25px;border-bottom: 1px double #ddd;min-height: 100%;}
+#tit_name_thi_truong_dia_phuong_buoi_sangs {font-size:19px;color: #333300 !important;font-weight: bold;line-height: 1.3;text-align: left;padding: 4px;margin-bottom: 3px;}
+#post_thi_truong_dia_phuong_buoi_sang { display: inline-block; float: left; width: 664px;min-height: 100%; padding: 4px;}
+#images_thi_truong img {width: 182px;height: 128px;padding: 2px; border: 1px double #ddd; float: left}
+#contend_thi_truong {float: right;width: 460px;margin-left: 9px;}
+#contend_thi_truong a {color: #333300 !important;float: left;line-height: 1.5;text-align: left;}

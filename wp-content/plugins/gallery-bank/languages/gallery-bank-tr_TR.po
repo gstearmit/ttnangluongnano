@@ -1,0 +1,415 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2013-08-02 15:42+0530\n"
+"PO-Revision-Date: 2013-08-02 16:45+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: C:\\wamp\\www\\plugins\\wp-content\\plugins\\gallery-bank"
+"\\\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: lib/gallery-bank-class.php:19
+msgid "Gallery Bank"
+msgstr ""
+
+#: lib/gallery-bank-class.php:20 views/dashboard.php:4
+msgid "Dashboard"
+msgstr "gösterge paneli"
+
+#: lib/gallery-bank-class.php:30 views/add-new-album.php:83
+#: views/dashboard.php:21 views/dashboard.php:23
+msgid "Add New Album"
+msgstr "Yeni Albüm Ekle"
+
+#: lib/gallery-bank-class.php:33
+msgid "Sorting"
+msgstr "türlere göre ayırma "
+
+#: lib/gallery-bank-class.php:34 views/dashboard.php:30 views/dashboard.php:32
+#: views/edit-album.php:348 views/settings.php:83
+msgid "Global Settings"
+msgstr "küresel bir ayarları"
+
+#: lib/gallery-bank-class.php:35 views/documentation.php:4
+msgid "Documentation"
+msgstr "Dokümantasyon"
+
+#: lib/gallery-bank-class.php:36
+msgid "Purchase Pro Version"
+msgstr "yanlısı Sürüm satın"
+
+#: lib/gallery-bank-class.php:333
+msgid "Select Gallery:"
+msgstr "Galerisi seçiniz :"
+
+#: lib/gallery-bank-class.php:335 views/images_sorting_ddl.php:18
+#: views/images_sorting_ddl.php:20
+msgid "Select Album"
+msgstr "Albüm seçin"
+
+#: views/add-new-album.php:88 views/album_preview.php:112
+#: views/edit-album.php:10 views/images_sorting.php:89
+#: views/images_sorting_ddl.php:8 views/settings.php:88
+msgid "Back to Album Overview"
+msgstr "Albüm  geri Genel Bakış"
+
+#: views/add-new-album.php:90
+msgid "Publish Album"
+msgstr "yayınlamak Albüm "
+
+#: views/add-new-album.php:95
+msgid "Album published.Kindly wait for the redirect."
+msgstr "Albüm Yayınlandı, şefkâtle beklemek yeniden yönlendirmesi."
+
+#: views/add-new-album.php:103 views/edit-album.php:30
+msgid "Album Details"
+msgstr "albüm Detayları"
+
+#: views/add-new-album.php:109 views/edit-album.php:47
+msgid "Enter your Album title here"
+msgstr "sizin Albümünü başlığı buraya girin"
+
+#: views/add-new-album.php:122 views/edit-album.php:62
+msgid "Upload Images"
+msgstr "Görüntüler yükle"
+
+#: views/add-new-album.php:127 views/edit-album.php:67
+msgid "Upload Images to your Album "
+msgstr " yükle  Görüntüler karşı albümünüze"
+
+#: views/add-new-album.php:132 views/edit-album.php:72
+msgid "Delete "
+msgstr "silmek"
+
+#: views/add-new-album.php:144 views/edit-album.php:272
+msgid "Album Cover"
+msgstr "albüm Kapağı"
+
+#: views/add-new-album.php:158 views/edit-album.php:301
+msgid "Set Cover Image "
+msgstr " Seti Kapak Resmi"
+
+#: views/add-new-album.php:166 views/edit-album.php:309
+msgid "Short Codes For Page/Post"
+msgstr "Kısa Kodlar için sayfa / posta"
+
+#: views/add-new-album.php:177 views/edit-album.php:320
+msgid "All Albums"
+msgstr "Tüm Albümler"
+
+#: views/add-new-album.php:181 views/edit-album.php:324
+msgid "Single Album"
+msgstr "tek bir Albüm"
+
+#: views/add-new-album.php:185 views/edit-album.php:328
+msgid "Album with Cover"
+msgstr "Kapak  ile Albüm"
+
+#: views/add-new-album.php:194 views/edit-album.php:337
+msgid "Album Settings"
+msgstr "albüm Ayarları"
+
+#: views/add-new-album.php:205
+msgid "Settings"
+msgstr "Ayarlar"
+
+#: views/add-new-album.php:209 views/edit-album.php:356
+#: views/edit-album.php:369
+msgid "Global"
+msgstr "küresel bir"
+
+#: views/add-new-album.php:213 views/edit-album.php:360
+#: views/edit-album.php:373
+msgid "Individual"
+msgstr "bireysel"
+
+#: views/add-new-album.php:223 views/edit-album.php:397
+msgid "Thumbnails Settings"
+msgstr "Küçük resimler Ayarlar"
+
+#: views/add-new-album.php:234 views/edit-album.php:408 views/settings.php:123
+msgid "Thumbnail Size"
+msgstr "küçültülmüş Boyut "
+
+#: views/add-new-album.php:242 views/add-new-album.php:255
+#: views/add-new-album.php:339 views/add-new-album.php:352
+#: views/edit-album.php:416 views/edit-album.php:429 views/edit-album.php:513
+#: views/edit-album.php:526 views/settings.php:130 views/settings.php:137
+#: views/settings.php:217 views/settings.php:224
+msgid "Original"
+msgstr "orijinal"
+
+#: views/add-new-album.php:246 views/add-new-album.php:259
+#: views/add-new-album.php:343 views/add-new-album.php:356
+#: views/edit-album.php:420 views/edit-album.php:433 views/edit-album.php:517
+#: views/edit-album.php:530 views/settings.php:131 views/settings.php:138
+#: views/settings.php:218 views/settings.php:225
+msgid "Custom"
+msgstr "görenek"
+
+#: views/add-new-album.php:267 views/add-new-album.php:364
+#: views/edit-album.php:441 views/edit-album.php:538 views/settings.php:146
+#: views/settings.php:233
+msgid "Width"
+msgstr "genişlik"
+
+#: views/add-new-album.php:274 views/add-new-album.php:371
+#: views/edit-album.php:448 views/edit-album.php:545 views/settings.php:153
+#: views/settings.php:240
+msgid "Height"
+msgstr "yükseklik"
+
+#: views/add-new-album.php:281 views/edit-album.php:455 views/settings.php:160
+msgid "Images in Row"
+msgstr "Arka arkaya Görüntüler"
+
+#: views/add-new-album.php:288 views/add-new-album.php:378
+#: views/add-new-album.php:421 views/edit-album.php:462
+#: views/edit-album.php:552 views/edit-album.php:595 views/settings.php:167
+#: views/settings.php:247 views/settings.php:290
+msgid "Opacity"
+msgstr "opaklık"
+
+#: views/add-new-album.php:295 views/add-new-album.php:385
+#: views/add-new-album.php:428 views/edit-album.php:469
+#: views/edit-album.php:559 views/edit-album.php:602 views/settings.php:174
+#: views/settings.php:254 views/settings.php:297
+msgid "Border Size"
+msgstr "Kenarlık Boyutu"
+
+#: views/add-new-album.php:302 views/add-new-album.php:392
+#: views/add-new-album.php:435 views/edit-album.php:476
+#: views/edit-album.php:566 views/edit-album.php:609 views/settings.php:181
+#: views/settings.php:261 views/settings.php:304
+msgid "Border Radius"
+msgstr "sınır yarıçapı"
+
+#: views/add-new-album.php:309 views/add-new-album.php:399
+#: views/add-new-album.php:448 views/edit-album.php:483
+#: views/edit-album.php:573 views/edit-album.php:622 views/settings.php:188
+#: views/settings.php:268 views/settings.php:317
+msgid "Border Color"
+msgstr "Çerçeve Rengi"
+
+#: views/add-new-album.php:320 views/edit-album.php:494 views/settings.php:199
+msgid "Album Cover Settings"
+msgstr "Albüm Kapağı Ayarlar"
+
+#: views/add-new-album.php:331 views/edit-album.php:505 views/settings.php:210
+msgid "Cover Size"
+msgstr "Kapak Boyutu "
+
+#: views/add-new-album.php:410 views/edit-album.php:584 views/settings.php:279
+msgid "Lightbox Settings"
+msgstr "Işık kutusu Ayarlar"
+
+#: views/add-new-album.php:442 views/edit-album.php:616 views/settings.php:311
+msgid "Text Color"
+msgstr "metin Rengi"
+
+#: views/add-new-album.php:454 views/edit-album.php:628 views/settings.php:323
+msgid "Inline Background"
+msgstr "satır içi  arka plan."
+
+#: views/add-new-album.php:460 views/edit-album.php:634 views/settings.php:329
+msgid "Overlay Background"
+msgstr "Yerleşimi Arkaplan"
+
+#: views/add-new-album.php:471 views/edit-album.php:645 views/settings.php:340
+msgid "Slide Show Settings"
+msgstr "Göster Ayarları kaydırın"
+
+#: views/add-new-album.php:482 views/edit-album.php:656 views/settings.php:351
+msgid "Auto Play"
+msgstr "Otomatik Oynat"
+
+#: views/add-new-album.php:490 views/add-new-album.php:503
+#: views/add-new-album.php:546 views/add-new-album.php:560
+#: views/edit-album.php:664 views/edit-album.php:677 views/edit-album.php:720
+#: views/edit-album.php:733 views/settings.php:358 views/settings.php:365
+#: views/settings.php:404 views/settings.php:411
+msgid "Enable"
+msgstr "etkinleştirin"
+
+#: views/add-new-album.php:494 views/add-new-album.php:507
+#: views/add-new-album.php:550 views/add-new-album.php:564
+#: views/edit-album.php:668 views/edit-album.php:681 views/edit-album.php:724
+#: views/edit-album.php:737 views/settings.php:359 views/settings.php:366
+#: views/settings.php:405 views/settings.php:412
+msgid "Disable"
+msgstr "Devre Dışı Bırak"
+
+#: views/add-new-album.php:515 views/edit-album.php:689 views/settings.php:374
+msgid "Interval"
+msgstr "aralık"
+
+#: views/add-new-album.php:527 views/edit-album.php:701 views/settings.php:386
+msgid "Pagination Settings"
+msgstr "Sayfalandırmayı Ayarlar"
+
+#: views/add-new-album.php:538 views/edit-album.php:712 views/settings.php:397
+msgid "Paging"
+msgstr "sayfalama"
+
+#: views/add-new-album.php:723 views/edit-album.php:100
+#: views/edit-album.php:1277
+msgid "Remove Image"
+msgstr "Resim çıkarın"
+
+#: views/add-new-album.php:728 views/edit-album.php:105
+#: views/edit-album.php:1282
+msgid "Enter your Image Title"
+msgstr "Senin Görüntü Başlık girin"
+
+#: views/add-new-album.php:730 views/edit-album.php:108
+#: views/edit-album.php:1284
+msgid "Enter your Image Description"
+msgstr "Senin Görüntü girin tanımlama"
+
+#: views/add-new-album.php:732 views/edit-album.php:1287
+msgid "Url to Redirect on click of an Image"
+msgstr "URL  yönlendirmek için,yazılı butona tıklayarak  , üzerinde görüntü"
+
+#: views/add-new-album.php:754 views/edit-album.php:1311
+#: views/edit-album.php:1334
+msgid "Are you sure you want to delete this Image?"
+msgstr "Eğer bu Resim silmek istediğinizden emin misiniz?"
+
+#: views/add-new-album.php:898
+msgid "Are you sure you want to delete these Images?"
+msgstr "Eğer bu Görüntüler silmek istediğinizden emin misiniz?"
+
+#: views/album_preview.php:108
+msgid "Preview Album "
+msgstr "Maç Öncesi Albüm"
+
+#: views/dashboard.php:36 views/dashboard.php:38
+msgid "Delete All Albums"
+msgstr "Tüm Albümler Sil"
+
+#: views/dashboard.php:47
+msgid "Existing Albums Overview"
+msgstr "varolan Albümler bakışı"
+
+#: views/dashboard.php:55
+msgid "Album Title"
+msgstr "albüm Başlığı"
+
+#: views/dashboard.php:56
+msgid "Images in Album"
+msgstr " Görüntüler Albümdeki"
+
+#: views/dashboard.php:57
+msgid "Published By"
+msgstr "tarafından yayınlanan"
+
+#: views/dashboard.php:58
+msgid "Date of Creation"
+msgstr " Tarihe bir Yaratılış"
+
+#: views/dashboard.php:90 views/edit-album.php:4
+msgid "Edit Album"
+msgstr "Albüm Düzenle?"
+
+#: views/dashboard.php:95 views/images_sorting.php:84
+#: views/images_sorting_ddl.php:4
+msgid "Re-order Images"
+msgstr "Yeniden sipariş Görüntüler"
+
+#: views/dashboard.php:100
+msgid "Preview Album"
+msgstr "Önizleme albüm"
+
+#: views/dashboard.php:105 views/edit-album.php:13
+msgid "Delete Album"
+msgstr "Albüm Sil"
+
+#: views/dashboard.php:138 views/edit-album.php:1354
+msgid "Are you sure you want to delete this Album?"
+msgstr "Eğer Bu albümdeki silmek istediğinizden emin misiniz?"
+
+#: views/dashboard.php:155
+msgid "Are you sure you want to delete all Albums ?"
+msgstr "Eğer tüm Kitaplarını silmek istediğinizden emin misiniz?"
+
+#: views/edit-album.php:16
+msgid "Update Album"
+msgstr "albüm Güncelleme"
+
+#: views/edit-album.php:21
+msgid "Album updated. Kindly wait for the redirect."
+msgstr "Albüm güncellenen, şefkâtle beklemek yeniden yönlendirmesi."
+
+#: views/edit-album.php:116 views/edit-album.php:123
+msgid " Url to Redirect on click of an Image"
+msgstr "URL  yönlendirmek için,yazılı butona tıklayarak  , üzerinde görüntü"
+
+#: views/edit-album.php:130 views/edit-album.php:1290
+msgid "Enter URL"
+msgstr "girmek URL"
+
+#: views/edit-album.php:1370
+msgid "Are you sure you want to delete these Images"
+msgstr "Eğer bu Görüntüler silmek istediğinizden emin misiniz"
+
+#: views/front-view-albums.php:84 views/front-view-all-albums.php:22
+msgid "Back to Albums"
+msgstr "Albümler için geri"
+
+#: views/front-view-albums.php:115 views/front-view-albums.php:178
+#: views/front-view-all-albums.php:110 views/front-view-all-albums.php:170
+msgid "See Album images"
+msgstr "Albüm  bakın görüntüler"
+
+#: views/header.php:12
+msgid ""
+"You will be only allowed to add 2 galleries and upto 10 images in each "
+"album. Kindly purchase Pro Version for full access."
+msgstr ""
+"sen eklemek için izin verilecek sadece iki galeri ve kadar 10 görüntü "
+"eklemek için . Lütfen tam erişim için Pro Sürüm satın."
+
+#: views/header.php:23
+msgid ""
+"Error : Thumbnails could not be displayed as permissions are missing.Kindly "
+"contact Gallery Bank or your Host to prove Read/Write/Execute permissions to "
+"cache folder inside the lib folder of Gallery Bank Plugin."
+msgstr ""
+"Hata: eksik olarak Öngörüntüler olamayacağını görüntülenemiyor izinleri . "
+"Lütfen GalleryBank temasa, veya evsahibi -ye kanıtlamak Okuma / Yazma / "
+"yürütme izinleri önbellek klasörüne lib klasörü içinde içinde içinde "
+"GalleryBank Plugini"
+
+#: views/more_feature.php:6
+msgid "Get more features"
+msgstr "Diğer Özellikler alın"
+
+#: views/settings.php:89
+msgid "Restore Settings"
+msgstr "Ayarları Geri Yükle"
+
+#: views/settings.php:91
+msgid "Save and Submit Changes"
+msgstr "Kaydet ve Değişiklikler sun"
+
+#: views/settings.php:96
+msgid "Success! Settings have been saved."
+msgstr "Başarı! ayarları olmuştur kaydedilmiş."
+
+#: views/settings.php:101
+msgid "Success! Settings have been restored."
+msgstr "Başarı! Ayarlar restore edilmiştir."
+
+#: views/settings.php:112
+msgid "Thumbnail Settings"
+msgstr "küçültülmüş Ayarları"
+
+#: views/settings.php:733
+msgid "Are you sure you want to restore settings ?"
+msgstr "Eğer ayarları geri yüklemek istediğinizden emin misiniz?"

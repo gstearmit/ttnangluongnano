@@ -1,0 +1,28 @@
+/***** ACCORDION ******/
+.easy-accordion{display:block;position:relative;overflow:hidden;padding:0;margin:0;}
+.easy-accordion dt,.easy-accordion dd{margin:0;padding:0}
+.easy-accordion dt,.easy-accordion dd{position:absolute}
+.easy-accordion dt{margin-bottom:0;margin-left:0;z-index:5;/* Safari */ -webkit-transform: rotate(-90deg); /* Firefox */ -moz-transform: rotate(-90deg);-moz-transform-origin: 20px 0px;  /* Internet Explorer */ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);cursor:pointer;}
+.easy-accordion dd{z-index:1;opacity:0;overflow:hidden}
+.easy-accordion dd.active{opacity:1;}
+.easy-accordion dd.no-more-active{z-index:2;opacity:1}
+.easy-accordion dd.active{z-index:3}
+.easy-accordion dd.plus{z-index:4}
+.easy-accordion .slide-number{position:absolute;bottom:0;left:10px;font-weight:normal;font-size:1.1em;/* Safari */ -webkit-transform: rotate(90deg); /* Firefox */ -moz-transform: rotate(90deg);  /* Internet Explorer */ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+ 
+dd p{line-height:150%}
+
+#accordion{width:750px;height:245px;padding:0px;background:#fff;}
+#accordion dl{width:750px;height:245px}	
+#accordion dt{height:46px;line-height:46px;text-align:right;padding:0 15px 0 0;border-top: 2px solid white;font-size:1.1em;font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;letter-spacing:1px;background-color: #D7E7EA;color:#26526c}
+#accordion dt.active{cursor:pointer;color:#fff;background:#BCD4DA}
+#accordion dt.hover{color:#fff; background:#BCD4DA}
+#accordion dd{padding:10px;background-color: white;border:1px solid #dbe9ea;border-left:0;margin-right:3px}
+#accordion .slide-number{color:#68889b;left:10px;font-weight:bold}
+#accordion .active .slide-number{color:#fff;}
+#accordion dd img{float:left;margin:10px;}
+#accordion h3 {margin: 0px 0px 0px 148px;}
+#accordion h3 a{font-size:18px;margin-top:0px}
+#accordion h3 a:hover {text-decoration: underline;}
+#accordion .more{padding-top:10px;display:block}
+#accordion a.more:hover {text-decoration: underline;}

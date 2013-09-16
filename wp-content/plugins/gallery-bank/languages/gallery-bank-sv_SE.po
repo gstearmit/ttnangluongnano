@@ -1,0 +1,414 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2013-08-02 16:22+0530\n"
+"PO-Revision-Date: 2013-08-02 16:45+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: C:\\wamp\\www\\plugins\\wp-content\\plugins\\gallery-bank"
+"\\\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: lib/gallery-bank-class.php:19
+msgid "Gallery Bank"
+msgstr ""
+
+#: lib/gallery-bank-class.php:20 views/dashboard.php:4
+msgid "Dashboard"
+msgstr "instrumentbräda"
+
+#: lib/gallery-bank-class.php:30 views/add-new-album.php:83
+#: views/dashboard.php:21 views/dashboard.php:23
+msgid "Add New Album"
+msgstr "Lägg Nytt album"
+
+#: lib/gallery-bank-class.php:33
+msgid "Sorting"
+msgstr "Sortering"
+
+#: lib/gallery-bank-class.php:34 views/dashboard.php:30 views/dashboard.php:32
+#: views/edit-album.php:348 views/settings.php:83
+msgid "Global Settings"
+msgstr "globala inställningar"
+
+#: lib/gallery-bank-class.php:35 views/documentation.php:4
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: lib/gallery-bank-class.php:36
+msgid "Purchase Pro Version"
+msgstr "Köp Pro versionen"
+
+#: lib/gallery-bank-class.php:333
+msgid "Select Gallery:"
+msgstr "Väljer galleri :"
+
+#: lib/gallery-bank-class.php:335 views/images_sorting_ddl.php:18
+#: views/images_sorting_ddl.php:20
+msgid "Select Album"
+msgstr "välj albumet"
+
+#: views/add-new-album.php:88 views/album_preview.php:112
+#: views/edit-album.php:10 views/images_sorting.php:89
+#: views/images_sorting_ddl.php:8 views/settings.php:88
+msgid "Back to Album Overview"
+msgstr "tillbaka till album Översikt"
+
+#: views/add-new-album.php:90
+msgid "Publish Album"
+msgstr "Publicera Albumet"
+
+#: views/add-new-album.php:95
+msgid "Album published.Kindly wait for the redirect."
+msgstr "albumet publicerade. välvilligt vänta omdirigeringen."
+
+#: views/add-new-album.php:103 views/edit-album.php:30
+msgid "Album Details"
+msgstr "albumdetaljer"
+
+#: views/add-new-album.php:109 views/edit-album.php:47
+msgid "Enter your Album title here"
+msgstr "Ange ditt album titel här"
+
+#: views/add-new-album.php:122 views/edit-album.php:62
+msgid "Upload Images"
+msgstr "Ladda upp bilder"
+
+#: views/add-new-album.php:127 views/edit-album.php:67
+msgid "Upload Images to your Album "
+msgstr "Ladda upp bilder till ditt album"
+
+#: views/add-new-album.php:132 views/edit-album.php:72
+msgid "Delete "
+msgstr "radera"
+
+#: views/add-new-album.php:144 views/edit-album.php:272
+msgid "Album Cover"
+msgstr "skivomslag"
+
+#: views/add-new-album.php:158 views/edit-album.php:301
+msgid "Set Cover Image "
+msgstr "Ställ omslagsbild"
+
+#: views/add-new-album.php:166 views/edit-album.php:309
+msgid "Short Codes For Page/Post"
+msgstr "kort koder för sida / inlägg"
+
+#: views/add-new-album.php:177 views/edit-album.php:320
+msgid "All Albums"
+msgstr "alla album"
+
+#: views/add-new-album.php:181 views/edit-album.php:324
+msgid "Single Album"
+msgstr "enda Albumet"
+
+#: views/add-new-album.php:185 views/edit-album.php:328
+msgid "Album with Cover"
+msgstr "Albumet med lock"
+
+#: views/add-new-album.php:194 views/edit-album.php:337
+msgid "Album Settings"
+msgstr "albumet inställningar"
+
+#: views/add-new-album.php:205
+msgid "Settings"
+msgstr "Inställningar"
+
+#: views/add-new-album.php:209 views/edit-album.php:356
+#: views/edit-album.php:369
+msgid "Global"
+msgstr "Globalt"
+
+#: views/add-new-album.php:213 views/edit-album.php:360
+#: views/edit-album.php:373
+msgid "Individual"
+msgstr "Individuell"
+
+#: views/add-new-album.php:223 views/edit-album.php:397
+msgid "Thumbnails Settings"
+msgstr "Tumnaglar Inställningar"
+
+#: views/add-new-album.php:234 views/edit-album.php:408 views/settings.php:123
+msgid "Thumbnail Size"
+msgstr "miniatyrbild storlek"
+
+#: views/add-new-album.php:242 views/add-new-album.php:255
+#: views/add-new-album.php:339 views/add-new-album.php:352
+#: views/edit-album.php:416 views/edit-album.php:429 views/edit-album.php:513
+#: views/edit-album.php:526 views/settings.php:130 views/settings.php:137
+#: views/settings.php:217 views/settings.php:224
+msgid "Original"
+msgstr "Ursprungligt"
+
+#: views/add-new-album.php:246 views/add-new-album.php:259
+#: views/add-new-album.php:343 views/add-new-album.php:356
+#: views/edit-album.php:420 views/edit-album.php:433 views/edit-album.php:517
+#: views/edit-album.php:530 views/settings.php:131 views/settings.php:138
+#: views/settings.php:218 views/settings.php:225
+msgid "Custom"
+msgstr "beställnings-"
+
+#: views/add-new-album.php:267 views/add-new-album.php:364
+#: views/edit-album.php:441 views/edit-album.php:538 views/settings.php:146
+#: views/settings.php:233
+msgid "Width"
+msgstr "Bredd"
+
+#: views/add-new-album.php:274 views/add-new-album.php:371
+#: views/edit-album.php:448 views/edit-album.php:545 views/settings.php:153
+#: views/settings.php:240
+msgid "Height"
+msgstr "Höjd"
+
+#: views/add-new-album.php:281 views/edit-album.php:455 views/settings.php:160
+msgid "Images in Row"
+msgstr "Bilder i rad"
+
+#: views/add-new-album.php:288 views/add-new-album.php:378
+#: views/add-new-album.php:421 views/edit-album.php:462
+#: views/edit-album.php:552 views/edit-album.php:595 views/settings.php:167
+#: views/settings.php:247 views/settings.php:290
+msgid "Opacity"
+msgstr "Opacitet"
+
+#: views/add-new-album.php:295 views/add-new-album.php:385
+#: views/add-new-album.php:428 views/edit-album.php:469
+#: views/edit-album.php:559 views/edit-album.php:602 views/settings.php:174
+#: views/settings.php:254 views/settings.php:297
+msgid "Border Size"
+msgstr "gränsa storlek"
+
+#: views/add-new-album.php:302 views/add-new-album.php:392
+#: views/add-new-album.php:435 views/edit-album.php:476
+#: views/edit-album.php:566 views/edit-album.php:609 views/settings.php:181
+#: views/settings.php:261 views/settings.php:304
+msgid "Border Radius"
+msgstr "gränsa Radie"
+
+#: views/add-new-album.php:309 views/add-new-album.php:399
+#: views/add-new-album.php:448 views/edit-album.php:483
+#: views/edit-album.php:573 views/edit-album.php:622 views/settings.php:188
+#: views/settings.php:268 views/settings.php:317
+msgid "Border Color"
+msgstr "gränsen Färg"
+
+#: views/add-new-album.php:320 views/edit-album.php:494 views/settings.php:199
+msgid "Album Cover Settings"
+msgstr "Skivomslag Inställningar"
+
+#: views/add-new-album.php:331 views/edit-album.php:505 views/settings.php:210
+msgid "Cover Size"
+msgstr "Täck Storlek"
+
+#: views/add-new-album.php:410 views/edit-album.php:584 views/settings.php:279
+msgid "Lightbox Settings"
+msgstr "ljusbord Inställningar"
+
+#: views/add-new-album.php:442 views/edit-album.php:616 views/settings.php:311
+msgid "Text Color"
+msgstr "texten färg"
+
+#: views/add-new-album.php:454 views/edit-album.php:628 views/settings.php:323
+msgid "Inline Background"
+msgstr "I-linje Background"
+
+#: views/add-new-album.php:460 views/edit-album.php:634 views/settings.php:329
+msgid "Overlay Background"
+msgstr "överlägg Background"
+
+#: views/add-new-album.php:471 views/edit-album.php:645 views/settings.php:340
+msgid "Slide Show Settings"
+msgstr "BILDSPEL Inställningar"
+
+#: views/add-new-album.php:482 views/edit-album.php:656 views/settings.php:351
+msgid "Auto Play"
+msgstr "automatisk uppspelning"
+
+#: views/add-new-album.php:490 views/add-new-album.php:503
+#: views/add-new-album.php:546 views/add-new-album.php:560
+#: views/edit-album.php:664 views/edit-album.php:677 views/edit-album.php:720
+#: views/edit-album.php:733 views/settings.php:358 views/settings.php:365
+#: views/settings.php:404 views/settings.php:411
+msgid "Enable"
+msgstr "Aktivera"
+
+#: views/add-new-album.php:494 views/add-new-album.php:507
+#: views/add-new-album.php:550 views/add-new-album.php:564
+#: views/edit-album.php:668 views/edit-album.php:681 views/edit-album.php:724
+#: views/edit-album.php:737 views/settings.php:359 views/settings.php:366
+#: views/settings.php:405 views/settings.php:412
+msgid "Disable"
+msgstr "Avaktivera"
+
+#: views/add-new-album.php:515 views/edit-album.php:689 views/settings.php:374
+msgid "Interval"
+msgstr "Intervall"
+
+#: views/add-new-album.php:527 views/edit-album.php:701 views/settings.php:386
+msgid "Pagination Settings"
+msgstr "sidnumrering Inställningar"
+
+#: views/add-new-album.php:538 views/edit-album.php:712 views/settings.php:397
+msgid "Paging"
+msgstr "Personsökning"
+
+#: views/add-new-album.php:723 views/edit-album.php:100
+#: views/edit-album.php:1277
+msgid "Remove Image"
+msgstr "Ta bort Bild"
+
+#: views/add-new-album.php:728 views/edit-album.php:105
+#: views/edit-album.php:1282
+msgid "Enter your Image Title"
+msgstr "Ange din Bildtitel"
+
+#: views/add-new-album.php:730 views/edit-album.php:108
+#: views/edit-album.php:1284
+msgid "Enter your Image Description"
+msgstr "Ange din bild Beskrivning"
+
+#: views/add-new-album.php:732 views/edit-album.php:1287
+msgid "Url to Redirect on click of an Image"
+msgstr "URL till dirigera om ,av klicka vid bild"
+
+#: views/add-new-album.php:754 views/edit-album.php:1311
+#: views/edit-album.php:1334
+msgid "Are you sure you want to delete this Image?"
+msgstr "Är du säker på att du vill ta bort denna bild?"
+
+#: views/add-new-album.php:898
+msgid "Are you sure you want to delete these Images?"
+msgstr "Är du säker på att du vill ta bort dessa bilder?"
+
+#: views/album_preview.php:108
+msgid "Preview Album "
+msgstr "Förhandsgranska skivalbum"
+
+#: views/dashboard.php:36 views/dashboard.php:38
+msgid "Delete All Albums"
+msgstr "Radera alla album"
+
+#: views/dashboard.php:47
+msgid "Existing Albums Overview"
+msgstr "Existerande album Översikt"
+
+#: views/dashboard.php:55
+msgid "Album Title"
+msgstr "albumtiteln"
+
+#: views/dashboard.php:56
+msgid "Images in Album"
+msgstr "Bilder i Albumet"
+
+#: views/dashboard.php:57
+msgid "Published By"
+msgstr "Publicerad Genom"
+
+#: views/dashboard.php:58
+msgid "Date of Creation"
+msgstr "Datum för skapelsen"
+
+#: views/dashboard.php:90 views/edit-album.php:4
+msgid "Edit Album"
+msgstr "Redigera album?"
+
+#: views/dashboard.php:95 views/images_sorting.php:84
+#: views/images_sorting_ddl.php:4
+msgid "Re-order Images"
+msgstr "re-ordningens bilder"
+
+#: views/dashboard.php:100
+msgid "Preview Album"
+msgstr "Förhandsgranska albumet"
+
+#: views/dashboard.php:105 views/edit-album.php:13
+msgid "Delete Album"
+msgstr "radera album"
+
+#: views/dashboard.php:138 views/edit-album.php:1354
+msgid "Are you sure you want to delete this Album?"
+msgstr "Är du säker på att du vill radera detta album?"
+
+#: views/dashboard.php:155
+msgid "Are you sure you want to delete all Albums ?"
+msgstr "Är du säker på att du vill radera alla album?"
+
+#: views/edit-album.php:16
+msgid "Update Album"
+msgstr "Updatera albumet"
+
+#: views/edit-album.php:21
+msgid "Album updated. Kindly wait for the redirect."
+msgstr " Albumet uppdaterad . välvilligt vänta omdirigeringen."
+
+#: views/edit-album.php:116 views/edit-album.php:123
+msgid " Url to Redirect on click of an Image"
+msgstr "URL till dirigera om ,av klicka vid bild"
+
+#: views/edit-album.php:130 views/edit-album.php:1290
+msgid "Enter URL"
+msgstr "ange URL"
+
+#: views/edit-album.php:1370
+msgid "Are you sure you want to delete these Images"
+msgstr "Är du säker på att du vill ta bort dessa bilder"
+
+#: views/front-view-albums.php:84 views/front-view-all-albums.php:22
+msgid "Back to Albums"
+msgstr "Tillbaka till Albums"
+
+#: views/front-view-albums.php:115 views/front-view-albums.php:178
+#: views/front-view-all-albums.php:110 views/front-view-all-albums.php:170
+msgid "See Album images"
+msgstr "Se Album bilder"
+
+#: views/header.php:12
+msgid ""
+"You will be only allowed to add 2 galleries and upto 10 images in each "
+"album. Kindly purchase Pro Version for full access."
+msgstr ""
+"Du kommer endast tillåtet att lägga till två gallerier och upp till 10 "
+"bilder i varje album. Vänligen köpa Pro-versionen för full åtkomst."
+
+#: views/header.php:23
+msgid ""
+"Error : Thumbnails could not be displayed as permissions are missing.Kindly "
+"contact Gallery Bank or your Host to prove Read/Write/Execute permissions to "
+"cache folder inside the lib folder of Gallery Bank Plugin."
+msgstr ""
+"Fel: Miniatyrer kunde inte visas eftersom behörigheter saknas. Vänligen "
+"kontakta Galleri Bank eller din värd att bevisa Läs / Skriv / körbehörighet "
+"till cacheminnet mappen i lib mappen i Gallery-Bank insticksprogrammet."
+
+#: views/more_feature.php:6
+msgid "Get more features"
+msgstr "Hämta fler funktioner"
+
+#: views/settings.php:89
+msgid "Restore Settings"
+msgstr "Återställ inställningar"
+
+#: views/settings.php:91
+msgid "Save and Submit Changes"
+msgstr "Spara och Skicka ändringar"
+
+#: views/settings.php:96
+msgid "Success! Settings have been saved."
+msgstr "Framgång! Inställningarna ha varit sparats."
+
+#: views/settings.php:101
+msgid "Success! Settings have been restored."
+msgstr "Framgång! Inställningarna har återställts."
+
+#: views/settings.php:112
+msgid "Thumbnail Settings"
+msgstr "miniatyrbilders inställningar"
+
+#: views/settings.php:733
+msgid "Are you sure you want to restore settings ?"
+msgstr "Är du säker på att du vill återupprätta inställningarna?"

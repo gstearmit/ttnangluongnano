@@ -1,0 +1,29 @@
+#homesweets_avali{width: 95%; overflow: hidden;margin: 20px;line-height: 1.5;font-size: 12px;}
+#conten_left{
+	width: 698px;
+	position: relative;
+	float: left;
+	min-height: 100%;
+	border-bottom: 1px double #DDDDDD;
+    padding-bottom: 7px;
+	/*width: 722px;position: relative;
+	float: left;
+	min-height: 100%;
+	left: -22px;*/
+}
+#float_left_se{
+	width: 698px;
+	position: relative;
+	float: left;
+	min-height: 100%;
+}
+#khung_avli {
+	width: 317px;
+	height:267px;
+	margin:0px 30px 18px 0px;
+	float: left;
+}
+#images_Available {}
+#images_Available img{padding: 1px;height: 211px;width: 313px;border: 1px double #ddd;}
+#AvailableNOW{color: #ff0000;font-size: 13px;}
+#tit_name_gt a{color: #333300 !important;text-decoration: none;}

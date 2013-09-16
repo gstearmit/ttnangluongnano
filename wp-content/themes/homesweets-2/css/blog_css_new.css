@@ -1,0 +1,34 @@
+#phuc { width:100%;min-height: 100%; }
+#binhluan_nao {
+ 	background-color: rgb(221, 221, 221);
+border-radius: 3px;
+bottom: 2px;
+margin: 10px;
+padding: 2px;
+position: relative;
+color: #330000;
+font-size: 16px;
+ }
+ #submit {background-color: rgb(221, 221, 221);
+border-radius: 3px;
+bottom: 2px;
+margin: 10px;
+padding: 2px;
+position: relative;
+color: #330000;
+font-size: 16px;}
+.form-allowed-tags {display: none;}
+#comment {width: 627px;}
+.slideDownbox, .slideUpbox, .slideTogglebox{
+		float:left;
+		padding:8px;
+		margin:16px;
+		border:1px solid red;
+		width:200px;
+		height:50px;
+		background-color:#000000;
+		color:white;
+	}
+	.clear{
+		clear:both;
+	}

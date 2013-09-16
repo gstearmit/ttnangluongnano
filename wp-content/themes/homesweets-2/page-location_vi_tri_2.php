@@ -1,0 +1,78 @@
+<?php 
+/* 
+Template Name: Theme page vitr-location-SweetHome 2 – LAKESIDE
+Comment : page-them-chitet-cac-page-can-ho-201-602
+*/
+?>
+
+<?php get_header(); ?>
+<div id='page-info-wapper'>
+		<?php get_sidebar(); ?>
+		<?php get_sidebar('second'); ?>
+		<div id="main-content">
+		<?php get_template_part('includes/breadcrumbs'); ?>
+		<?php //get_template_part('includes/top_info'); ?>
+
+		<div id="content" class="clearfix">
+			
+				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+			<div id="left-area">							
+						<?php if (get_option('chameleon_page_thumbnails') == 'on') { ?>
+							<?php 
+								$thumb = '';
+								$width = 186;
+								$height = 186;
+								$classtext = 'post-thumb';
+								$titletext = get_the_title();
+								$thumbnail = get_thumbnail($width,$height,$classtext,$titletext,$titletext,false,'Entry');
+								$thumb = $thumbnail["thumb"];
+							?>
+							
+							<?php if($thumb <> '') { ?>
+								<div class="post-thumbnail">
+									<?php print_thumbnail($thumb, $thumbnail["use_timthumb"], $titletext, $width, $height, $classtext); ?>
+									<span class="post-overlay"></span>
+								</div> 	<!-- end .post-thumbnail -->
+							<?php } ?>
+						<?php } ?>
+						
+						<?php the_content(); ?>
+						<?php wp_link_pages(array('before' => '<p><strong>'.esc_html__('Trang','Chameleon').':</strong> ', 'after' => '</p>', 'next_or_number' => 'number')); ?>
+						
+						<div id='page_edit_link'>
+							<?php edit_post_link(esc_html__('Chỉnh Sửa page','Chameleon')); ?>
+						</div><!-- id='page_edit_link' -->			
+					
+								
+					<?php if (get_option('chameleon_show_pagescomments') == 'on') comments_template('', true); ?>
+				<?php endwhile; endif; ?>
+			
+			</div> 	<!-- end #left-area -->
+
+			
+		</div> <!-- end #content -->	
+		</div><!--end main-content-->
+	</div><!-- id='page-info-wapper' -->
+
+	<div id='noi_dung_cont_chitiet'>
+		<?php 
+		/*
+            global $post;
+            $args = array('numberposts'=>1,'category'=>26, 'orderby'=>'rand');
+            $custom_posts = get_posts($args);
+            foreach($custom_posts as $post) : setup_postdata($post); ?>
+             
+                    <?php the_content();?>
+                <div id='edit_post'><?php edit_post_link(esc_html__('Chỉnh sửa','Chameleon')); ?></div>
+               
+                
+        <?php
+            endforeach;
+            wp_reset_postdata();
+            */
+         ?>
+         <iframe width="900" height="253" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=vi&amp;geocode=&amp;q=AU+CO.+Add.+21B,+lane+236,+Au+Co+str.,+Tay+Ho+dist.,+Hanoi&amp;sll=37.0625,-95.677068&amp;sspn=40.817312,73.564453&amp;ie=UTF8&amp;hq=AU+CO.+Add.+21B,+lane+236,+Au+Co+str.,+Tay+Ho+dist.,&amp;hnear=Ho%C3%A0n+Ki%E1%BA%BFm,+H%C3%A0+N%E1%BB%99i,+Vi%E1%BB%87t+Nam&amp;t=m&amp;ll=21.085141,105.847092&amp;spn=0.040523,0.154324&amp;z=13&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=vi&amp;geocode=&amp;q=AU+CO.+Add.+21B,+lane+236,+Au+Co+str.,+Tay+Ho+dist.,+Hanoi&amp;sll=37.0625,-95.677068&amp;sspn=40.817312,73.564453&amp;ie=UTF8&amp;hq=AU+CO.+Add.+21B,+lane+236,+Au+Co+str.,+Tay+Ho+dist.,&amp;hnear=Ho%C3%A0n+Ki%E1%BA%BFm,+H%C3%A0+N%E1%BB%99i,+Vi%E1%BB%87t+Nam&amp;t=m&amp;ll=21.085141,105.847092&amp;spn=0.040523,0.154324&amp;z=13&amp;iwloc=A" style="color:#0000FF;text-align:left">Xem Bản đồ cỡ lớn hơn</a></small>
+	</div> <!-- id='noi_dung_cont_chitiet' -->
+
+<?php get_footer(); ?>
+	</div><!-- id="page-wrap" -->
